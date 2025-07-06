@@ -1,0 +1,33 @@
+# Copyright (c) 2025 staurix (r), All rights reserved.
+#
+#     _______  _______  _______  __   __  ______    ___   __   __
+#    |       ||       ||   _   ||  | |  ||    _ |  |   | |  |_|  |
+#    |  _____||_     _||  |_|  ||  | |  ||   | ||  |   | |       |
+#    | |_____   |   |  |       ||  |_|  ||   |_||_ |   | |       |
+#    |_____  |  |   |  |       ||       ||    __  ||   |  |     |
+#     _____| |  |   |  |   _   ||       ||   |  | ||   | |   _   |
+#    |_______|  |___|  |__| |__||_______||___|  |_||___| |__| |__|
+#
+# filename      : .gitignore
+# description   : GIT ignore file
+# creation date : 06/07/2025
+# author        : "Luis CRUZ" <luis.cruz@staurix.com>
+
+
+
+#########################
+#   BITBAKE ARTIFACTS   #
+#########################
+
+/build-*/cache/
+/build-*/deploy-ti/
+/build-*/downloads/
+/build-*/sstate-cache/
+/build-*/tmp*/
+/build-*/bitbake-cookerdaemon.log
+/build-*/bitbake.lock
+/build-*/bitbake.sock
+
+
+
+# End of file
